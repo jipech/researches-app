@@ -16,6 +16,13 @@ Finally, you should run backend server by using npm command
 ```
 npm run server
 ```
+If you detect the problems by the running server (nodemon not found), you have to add it:
+
+```
+npm install nodemon --save
+```
+and run the server again.
+
 and compile frontend with webpack: 
 
 ```
